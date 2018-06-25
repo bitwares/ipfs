@@ -7,6 +7,7 @@ wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 sudo yum install ./epel-release-latest-7.noarch.rpm -y
 sudo yum install nginx -y
 rm epel-release-latest-7.noarch.rpm
+setenforce 0
 
 # grab config files
 wget https://raw.githubusercontent.com/hautph/ipfs/master/ipfs-gateway-nginx.conf
