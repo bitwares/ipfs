@@ -4,7 +4,7 @@
 
 $ wget https://raw.githubusercontent.com/hautph/ipfs/master/ipfs-cluster-nginx.sh
 
-$ bash ipfs-cluster-nginx.sh
+$ sh ipfs-cluster-nginx.sh
 
 $ sudo systemctl status nginx
 
@@ -40,7 +40,7 @@ Run the installer
 
 $ wget https://raw.githubusercontent.com/hautph/ipfs/master/ipfs-cluster-linux.sh
 
-$bash ipfs-cluster-linux.sh
+$ sh ipfs-cluster-linux.sh
 
 $ sudo systemctl status ipfs
 
@@ -52,7 +52,7 @@ $ journalctl -u ipfs-cluster --follow
 
 $ wget https://raw.githubusercontent.com/hautph/ipfs/master/ipfs.sh
 
-$ bash ipfs.sh
+$ sh ipfs.sh
 
 $ sudo systemctl status ipfs
 
