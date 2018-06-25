@@ -1,6 +1,6 @@
 # ipfs setup
 
-1. Install an nginx reverse proxy + cache for an ipfs-cluster peer gateway on Linux.
+# 1. Install an nginx reverse proxy + cache for an ipfs-cluster peer gateway on Linux.
 
 $ wget https://raw.githubusercontent.com/hautph/ipfs/master/ipfs-cluster-nginx.sh
 
@@ -10,7 +10,7 @@ $ sudo systemctl status nginx
 
 $ sudo tail -f /var/log/nginx/access.log
 
-2. Install an ipfs-cluster peer on Linux.
+# 2. Install an ipfs-cluster peer on Linux.
 
 First node (node_0) setup
 
